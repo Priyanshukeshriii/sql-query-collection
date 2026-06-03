@@ -13,4 +13,5 @@ delete from persons where id between 2 and 5 ;
 delete from persons;
 
 -- and
+-- * truncate the table will remove all the records from the table but it will not log individual row deletions and it will reset any auto-incrementing keys to their starting value.
 TRUNCATE from persons;
